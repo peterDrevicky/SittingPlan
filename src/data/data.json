@@ -1,0 +1,58 @@
+{
+  "people": {
+    "person1": {
+      "sittingPlace": "329.1",
+      "name": "David Barta",
+      "position": "QA",
+      "project": "Clinical Ink"
+    },
+    "person2": {
+      "sittingPlace": "329.2",
+      "name": "Mirka Skrivankova",
+      "position": "Front End Tech Lead",
+      "project": "Clinical Ink"
+    },
+    "person3": {
+      "sittingPlace": "329.3",
+      "name": "Vit Valchar",
+      "position": "Senior BE Developer",
+      "project": "Clinical Ink"
+    },
+    "person4": {
+      "sittingPlace": "329.6",
+      "name": "Pavel Spacek",
+      "position": "Manager",
+      "project": "Clinical Ink"
+    },
+    "person5": {
+      "sittingPlace": "329.5",
+      "name": "Dusan Drevicky",
+      "position": "Senior FE Developer",
+      "project": "Clinical Ink"
+    },
+    "person6": {
+      "sittingPlace": "329.7",
+      "name": "Jakub Miakys",
+      "position": "QA",
+      "project": "Clinical Ink"
+    },
+    "person7": {
+      "sittingPlace": "329.12",
+      "name": "Viktor Pac",
+      "position": "QA",
+      "project": "Clinical Ink"
+    },
+    "person8": {
+      "sittingPlace": "329.11",
+      "name": "David Mlnarik",
+      "position": "Senior FE Developer",
+      "project": "Clinical Ink"
+    },
+    "person9": {
+      "sittingPlace": "329.10",
+      "name": "Peter Drevicky",
+      "position": "Junior FE Developer",
+      "project": "Clinical Ink"
+    }
+  }
+}
