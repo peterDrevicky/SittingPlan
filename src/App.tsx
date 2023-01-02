@@ -2,13 +2,13 @@ import "./App.css";
 import React from "react";
 import { styled } from "@material-ui/core";
 import { SeatingOrder } from "./components/SeatingOrder/SeatingOrder";
-
-const mapImg = require("./images/sittingPlanImg.jpg");
+import { A1Map } from "./images/a1Mapa";
 
 const App = () => {
   return (
     <MapPage>
-      <MapContainer style={{ backgroundImage: `url(${mapImg})` }}>
+      <MapContainer>
+        <A1Map />
         <SeatingOrder />
       </MapContainer>
     </MapPage>
@@ -16,16 +16,17 @@ const App = () => {
 };
 
 const MapPage = styled("div")({
+  marginTop: "0px",
   display: "flex",
   justifyContent: "center",
 });
 
 const MapContainer = styled("div")({
   position: "relative",
-  marginTop: "250px",
+  margin: "150px 0 90px 0",
   border: "5px solid blue",
-  height: "581px",
-  width: "1346px",
+  height: "540px",
+  width: "1345px",
 });
 
 export default App;
